@@ -1,4 +1,5 @@
 build:
   docker:
-    # web: ./front/Dockerfile
     back: ./back/Dockerfile
+run:
+  back: node index.js
