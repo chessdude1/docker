@@ -3,7 +3,7 @@ import './App.css';
 function App() {
 
   async function testFront() {
-    let res = await fetch('http://localhost:5000/api/users')
+    let res = await fetch('https://backend-test-heroku-yml-rs.herokuapp.com/api/users')
     console.log(res)
   }
 
