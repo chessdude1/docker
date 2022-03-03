@@ -1,11 +1,4 @@
-version: '3'
-services:
-  back:
-    image: back
-    ports:
-      - '5000:5000'
-    restart: always
-  front:
-    image: test:01
-    ports:
-      - '3000:3000'
+build:
+  docker:
+    web: ./front/Dockerfile
+    back: ./back/Dockerfile
