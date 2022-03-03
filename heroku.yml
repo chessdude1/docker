@@ -1,5 +1,3 @@
 build:
   docker:
     back: ./back/Dockerfile
-run:
-  back: npm start
