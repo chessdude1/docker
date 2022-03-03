@@ -2,4 +2,4 @@ build:
   docker:
     back: ./back/Dockerfile
 run:
-  back: node index.js
+  back: npm start
