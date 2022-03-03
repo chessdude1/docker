@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(
   cors({
     methods: ["POST", "GET", "PUT", "PATCH", "DELETE"],
-    origin: 'http://localhost:3000',
+    origin: 'https://test-heroku-yml-rs.herokuapp.com',
     credentials: true,
   })
 )
